@@ -9,12 +9,13 @@ Requirements:
 
 ## How to Use
 
-1
+**1**
 ```
 git clone <this-repo>
 ```
 
-2
+**2 - Add a package name**
+
 Update in `package.json` the `name` field with
 
 ```json
@@ -23,23 +24,25 @@ Update in `package.json` the `name` field with
 "name" : "@<npm-organizationname>/<package-name>", // ORGANIZATION SCOPED PACKAGE 
 ```
 
-3
-When developing
+**3 - When developing**
 
 ```
 npm start
 ```
 
-4
-When ready to publish - first time published
+For test your package you can use one of these:
+- `npm link` - search on google ()
+- run `npm install absolute/path/to/package` from other project directory
+
+**4 - When ready to publish, if first time publish**
 
 ```
 npm run build
 npm publish --access public
 ```
 
-4
-When ready to publish - update published package 
+**4 - When ready to publish, if updating published package.**
+
 Increment version in `package.json` if you are updating the package.
 
 ```
