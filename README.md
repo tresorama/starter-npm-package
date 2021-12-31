@@ -11,7 +11,9 @@ Requirements:
 
 **1**
 ```
-git clone <this-repo>
+git clone <this-repo> <directory-name>
+cd <directory-name>
+npm i
 ```
 
 **2 - Add a package name**
